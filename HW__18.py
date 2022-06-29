@@ -99,5 +99,5 @@ if __name__ == "__main__":
     with concurrent.futures.ThreadPoolExecutor() as executor:
         executor.map(download_images, img_urls)
 
-t2 = time.perf_counter()
-print(f'Finished in {round(t2-t1)} seconds')
+    t2 = time.perf_counter()
+    print(f'Finished in {round(t2-t1)} seconds')
